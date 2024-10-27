@@ -10,8 +10,7 @@
         "tabs"
     ],
     "icons": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+        "192": "/android-chrome-192x192.png",
+        "512": "/android-chrome-512x512.png"
     }
 }
