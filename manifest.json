@@ -1,12 +1,17 @@
 {
+    "name": "Tab Tracker",
+    "description": "A browser extension for quickly saving and managing your favorite URLs.",
     "manifest_version": 3,
     "version": "1.0",
-    "name": "Tab Tracker",
     "action": {
-        "default_popup": "index.html",
-        "default_icon": "icon.png"
+        "default_popup": "index.html"
     },
     "permissions": [
         "tabs"
-    ]
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
 }
